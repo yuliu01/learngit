@@ -83,7 +83,7 @@ for i in ls:
     time.sleep(1)
 print(bigurllist)
 print(result_list)
-# 下载列表里面所有的大图
+# 下载列表里面所有的大图,测试一下git
 down_load(pic_list=bigurllist, dwd_path=dwd_path)
 time.sleep(1)
 driver.quit()
